@@ -12,18 +12,18 @@ export interface ProjectPreviewInterface {
 const ProjectPreview = (props:ProjectPreviewInterface) => {
 
     return(
-        <div className="flex gap-4 bg-slate-100 p-4 rounded-2xl">
-            <div className="relative w-24 h-16 min-w-fit">
-                <Image src={props.image} layout="fill" />
+        <div className="flex gap-4 bg-slate-100 p-4 rounded-2xl hover:bg-slate-50 h-40">
+            <div className="relative w-1/4 min-w-fit">
+                <Image src={props.image} layout="fill" className="object-scale-down" />
             </div>
-            <div className="my-auto">
+            <div className="my-auto w-3/4">
                 <Link href={props.linkUrl}>
                     <a className="font-bold underline hover:no-underline">
                         {props.title}
                     </a>
                 </Link>
                 <div className="text-slate-500 text-xs italic mt-1 mb-1">{props.tag}</div>
-                <div>{props.desc}</div>                
+                <div className="text-slate-600 text-sm">{props.desc}</div>                
             </div>
         </div>
     );
