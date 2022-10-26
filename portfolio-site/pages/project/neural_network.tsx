@@ -13,28 +13,28 @@ const NeuralNetwork: NextPage = () => {
         Neural Network (Timeseries Analysis – IBM Stock Price) – Python
       </div>      
       <div>
-        <p className='m-2'>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Programming Language Used :</span> Python, Keras and Tensorflow library
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Software Used :</span> Anaconda, Jupyter Noteboook
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a href="https://github.com/Group-7-Big-Data/Assignment-3/blob/master/IBM_Stock.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-3</a>
-        </p>
-        <p className='m-2'>
+          <a target="_blank" href="https://github.com/Group-7-Big-Data/Assignment-3/blob/master/IBM_Stock.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-3</a>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Demo Link : </span> 
-          <a href="http://group-7-stock-prices.herokuapp.com/" className='text-blue-400'>http://group-7-stock-prices.herokuapp.com/</a>
-        </p>
-        <p className='m-2'>
+          <a target="_blank" href="http://group-7-stock-prices.herokuapp.com/" className='text-blue-400'>http://group-7-stock-prices.herokuapp.com/</a>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 
           <div>
           Time series analysis comprises methods for analyzing time series data to extract meaningful statistics and other characteristics of the data.
            We are using Time series forecasting model to predict future values of stock based on previously observed values or historical data.
             Using time series analysis, our goal is to reduce investment risk by forecasting future value of stock.  
           </div>
-        </p>
+        </div>
 
         <div>
             <div className='mt-10 text-center text-slate-600'>Stock Prediction</div>

@@ -82,17 +82,17 @@ const NeuralNetwork: NextPage = () => {
         NYC 311 Service OpenData – ELK (Elastic, Kibana, Logstash)
       </div>      
       <div>
-        <p className='m-2'>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Programming Language Used :</span> Logstash Config, CURL
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Software Used :</span> Google Cloud Platform (GCP), Elasticsearch, Kibana, Logstash
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a href="https://github.com/sidthree6/NYC_311_calls_ELK" className='text-blue-400'>https://github.com/sidthree6/NYC_311_calls_ELK</a>
-        </p>
-        <p className='m-2'>
+          <a target="_blank" href="https://github.com/sidthree6/NYC_311_calls_ELK" className='text-blue-400'>https://github.com/sidthree6/NYC_311_calls_ELK</a>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 
           <div className='mb-5'>
             I have gathered data from Newyork open data website where it contains huge data for 311 service requests from 2010 to present. Using Google Cloud Platform (GCP) and ELK stack I have attempted to analyzed data. Before analysing I had to create a template mapping in elasticsearch using curl and then write logstash config file to ingest huge data into elastic.
@@ -108,27 +108,27 @@ const NeuralNetwork: NextPage = () => {
             <li>Create a coordinated map of all the major call descriptors in each city</li>
           </ul>
           </div>
-        </p>
-        <p className='mb-5'>
+        </div>
+        <div className='mb-5'>
         Creating Mapping in Elastic using CURL.
-        </p>
-        <p className='mb-5 bg-gray-800 text-white text-ellipsis overflow-auto '>
+        </div>
+        <div className='m-5 bg-gray-800 text-white text-ellipsis overflow-auto '>
           <pre>
             <code>
             {codeOne}
             </code>
           </pre>
-        </p>
-        <p className='mb-5'>
+        </div>
+        <div className='mb-5'>
         Creating config file to ingest data into elastic
-        </p>
-        <p className='mb-5 bg-gray-800 text-white text-ellipsis overflow-auto'>
+        </div>
+        <div className='m-5 bg-gray-800 text-white text-ellipsis overflow-auto'>
           <pre>
             <code>
             {codeTwo}
             </code>
           </pre>
-        </p>
+        </div>
         <div>
             <div className='mt-10 text-center text-slate-600'>Top 10 Cities with Top 10 Complaint Calls</div>
             <Image src={ImageOne}/>

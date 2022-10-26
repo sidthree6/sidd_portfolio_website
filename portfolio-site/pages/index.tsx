@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       title: "Lego’s Future Strategies in the Games Market; A Linear Regression Problem – Python",
       tag: "Part of: DATA SCIENCE / ENGINEERING PROJECTS",
       desc: 'Using linear regression model, provide Lego with proper business recommendation that is both feasible & well-rounded.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/lego',
       image: '/lego/thumb.png'
     }
   );
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
       title: "Calender – Python",
       tag: "Part of: SOFTWARE DEVELOPMENT PROJECTS",
       desc: 'Simple text-based calender project using python & OOP.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/calender',
       image: '/calender/thumb.png'
     }
   );
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       title: "SDB (Simple Database) – PHP",
       tag: "Part of: SOFTWARE DEVELOPMENT PROJECTS",
       desc: 'A simple text based database with SQL like queries build on PHP as a high school project.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/sdb',
       image: '/sdb/thumb.png'
     }
   );
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
       title: "Quiz Builder – PHP",
       tag: "Part of: FULL STACK DEVELOPMENT",
       desc: 'A simple quiz builder webapp build on php, javascript & mysql. Part of university project.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/quiz',
       image: '/quiz/thumb.png'
     }
   );
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
       title: "AdventureScape (Java)",
       tag: "Part of: GAME DEVELOPMENT PROJECTS",
       desc: 'An Action/RPG 2D game demo developed on Java (No game engine used) as a fun project.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/adventure',
       image: '/adventure/thumb.png'
     }
   );
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
       title: "Tic Tac Toe (3d) – Unity (C#)",
       tag: "Part of: GAME DEVELOPMENT PROJECTS",
       desc: 'A simple Tic-Tac-Toe game created in Unity3D where a player can play with another player or an AI.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/tictactoe',
       image: '/tictactoe/thumb.png'
     }
   );
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
       title: "Room Escape – Unreal Engine 4 (C++)",
       tag: "Part of: GAME DEVELOPMENT PROJECTS",
       desc: 'A simple room escape demo, player has to find 3 odd looking barrels and put them on skid in order to open a door.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/roomescape',
       image: '/escape/thumb.png'
     }
   );
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
       title: "BeachBall Madness – Unity (C#)",
       tag: "Part of: GAME DEVELOPMENT PROJECTS",
       desc: 'A very simple 2D platformer game made in Unity using C# language.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/beachball',
       image: '/beach/thumb.png'
     }
   );

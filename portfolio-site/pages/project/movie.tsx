@@ -14,21 +14,21 @@ const NeuralNetwork: NextPage = () => {
         Movie Recommender System – Python
       </div>      
       <div>
-        <p className='m-2'>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Programming Language Used :</span> Python
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Software Used :</span> Anaconda, Jupyter Noteboook
-        </p>
-        <p className='m-2'>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a href="https://github.com/Group-7-Big-Data/Assignment-1/blob/master/Assignment%201%20-%20Movie%20Recommender%20System.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-1</a>
-        </p>
-        <p className='m-2'>
+          <a target="_blank" href="https://github.com/Group-7-Big-Data/Assignment-1/blob/master/Assignment%201%20-%20Movie%20Recommender%20System.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-1</a>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Demo Link : </span> 
-          <a href="https://group-7-movie-recommand-app.herokuapp.com/" className='text-blue-400'>https://group-7-movie-recommand-app.herokuapp.com/</a>
-        </p>
-        <p className='m-2'>
+          <a target="_blank" href="https://group-7-movie-recommand-app.herokuapp.com/" className='text-blue-400'>https://group-7-movie-recommand-app.herokuapp.com/</a>
+        </div>
+        <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 
           <div className='mb-5'>
           Movies are a subjective entertainment platform; every person has a different choice for movies
@@ -60,7 +60,7 @@ movie ratings given by viewers to recommend movies based on their past given rat
 be trying to determine accuracy of our model recommendation to viewers and improve their
 overall viewing experience.
           </div>
-        </p>
+        </div>
 
         <div  className='mt-10'>
             <Image src={ImageOne}/>            
