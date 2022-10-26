@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       title: "Movie Recommender System – Python",
       tag: "Part of: DATA SCIENCE / ENGINEERING PROJECTS",
       desc: 'Using AI to recommand movie to users based on movies they have selected.',
-      linkUrl: 'project/movie_recommand',
+      linkUrl: 'project/movie',
       image: '/imdb/thumb.png'
     }
   );
