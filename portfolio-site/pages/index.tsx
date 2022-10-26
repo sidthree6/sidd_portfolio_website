@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       title: "NYC 311 Service OpenData – ELK (Elastic, Kibana, Logstash)",
       tag: "Part of: DATA ANALYSIS",
       desc: 'Using 311 reservice requests data for New York city and doing analysis using GCP & ELK stack.',
-      linkUrl: 'project/neural_network',
+      linkUrl: 'project/nyc_crime',
       image: '/elk/thumb.png'
     }
   );
