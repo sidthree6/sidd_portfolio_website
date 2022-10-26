@@ -18,11 +18,11 @@ const NeuralNetwork: NextPage = () => {
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a target="_blank" href="https://github.com/sidthree6/Lego_Regression_K-Means/blob/master/lego_k_means_clustering.ipynb" className='text-blue-400'>https://github.com/sidthree6/Lego_Regression_K-Means</a>
+          <a href="https://github.com/sidthree6/Lego_Regression_K-Means/blob/master/lego_k_means_clustering.ipynb" className='text-blue-400'>https://github.com/sidthree6/Lego_Regression_K-Means</a>
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Report Link : </span> 
-          <a target="_blank" href="https://github.com/sidthree6/Lego_Regression_K-Means/blob/master/Lego%E2%80%99s%20Future%20Strategies%20in%20the%20Games%20Market%20-%20KMeans%20Clustering.pdf" className='text-blue-400'>PDF Report</a>
+          <a href="https://github.com/sidthree6/Lego_Regression_K-Means/blob/master/Lego%E2%80%99s%20Future%20Strategies%20in%20the%20Games%20Market%20-%20KMeans%20Clustering.pdf" className='text-blue-400'>PDF Report</a>
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 

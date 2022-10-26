@@ -20,7 +20,7 @@ const NeuralNetwork: NextPage = () => {
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a target="_blank" href="https://github.com/sidthree6/AdventureScape" className='text-blue-400'>https://github.com/sidthree6/AdventureScape</a>
+          <a href="https://github.com/sidthree6/AdventureScape" className='text-blue-400'>https://github.com/sidthree6/AdventureScape</a>
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 

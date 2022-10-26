@@ -22,11 +22,11 @@ const NeuralNetwork: NextPage = () => {
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Github Link : </span> 
-          <a target="_blank" href="https://github.com/Group-7-Big-Data/Assignment-1/blob/master/Assignment%201%20-%20Movie%20Recommender%20System.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-1</a>
+          <a href="https://github.com/Group-7-Big-Data/Assignment-1/blob/master/Assignment%201%20-%20Movie%20Recommender%20System.ipynb" className='text-blue-400'>https://github.com/Group-7-Big-Data/Assignment-1</a>
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Demo Link : </span> 
-          <a target="_blank" href="https://group-7-movie-recommand-app.herokuapp.com/" className='text-blue-400'>https://group-7-movie-recommand-app.herokuapp.com/</a>
+          <a href="https://group-7-movie-recommand-app.herokuapp.com/" className='text-blue-400'>https://group-7-movie-recommand-app.herokuapp.com/</a>
         </div>
         <div className='m-2'>
           <span className='font-bold text-slate-500 italic'>Description : </span> 
